@@ -1,0 +1,148 @@
+/*------------------------------------------------------------------
+Project:	Nantes - multi purpose one-page template
+Version:	1.0
+Last change:	18/02/2016 [...]
+Designed by:	MOOZ Themes / www.MOOZthemes.com
+Primary use:	One page
+-------------------------------------------------------------------*/
+
+/* main font for menu. */
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900);
+/* font for headings, text, tags */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800);
+
+/*--------------------
+Color customizations
+change these colors to change overlays
+--------------------*/
+
+.mz-module:hover .ot-circle.color1 {
+	color: #C54A4A;
+}
+.mz-module:hover .ot-circle.color2 {
+	color: #6091DC;
+}
+.mz-module:hover .ot-circle.color3 {
+	color: #6EB377;
+}
+.mz-module:hover .ot-circle.color4 {
+	color: #FCBE03;
+}
+@font-face{
+	font-family: 'eurostile';
+	src: url("../fonts/Eurostile.ttf");
+}
+/*--------------------
+1. General
+--------------------*/
+
+body {
+	margin: 0px;
+	font-family: "Open Sans", Sans-serif;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+	font-weight: bolder;
+	letter-spacing: 0.4px;
+	font-family: eurostile;
+	color: #212529;
+	font-size: 20px;
+}
+
+
+
+/*--------------------
+4.6. Team
+--------------------*/
+h3{
+	font-family: eurostile;
+	color: black;
+	font-size: 28px;
+	font-weight: 500;
+	line-height: 1.2;
+	padding: 30px;
+	display: block;
+
+
+}
+.team-image img{
+	border-radius: 100%;
+	box-sizing: border-box;
+	width: 100%;
+}
+.team-image{
+	width: 50%;
+	margin: auto;
+}
+.team-body{
+	border: 1px solid #d3d3d3;
+	border-radius: 8px;
+	margin-top: 40px;
+	padding-bottom: 40px;
+	box-shadow: 0 50px 30px -30px #d3d3d3;
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom: 40px;
+	padding-left: 0px;
+	
+
+}
+
+.row{
+	/*margin-left: 100px;
+	margin-right: 100px;*/
+	margin-bottom: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.team-item {
+	text-align: center;
+	background-color: #fff;
+
+}
+
+.team-item h3 {
+	font-size: 16px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #2D2D2D
+}
+
+.team-item .team-position {
+	color: #989898;
+	font-size: 12px;
+	margin: 15px 0 10px;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+
+.team-item p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #292929;
+    padding: 5px 10px 20px 10px;
+}
+
+.team-socials {
+	padding-bottom: 25px;
+}
+
+.team-socials a {
+    color: black;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.team-socials a:hover {
+	color: #000;
+}
+hr{
+	width: 10%;
+	border-width: 1px;
+}
+
